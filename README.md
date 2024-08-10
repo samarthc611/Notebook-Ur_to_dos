@@ -11,6 +11,12 @@ This is a Note Management application built with the MERN stack (MongoDB, Expres
 - **Delete Notes**: Remove notes from the system.
 - **View Notes**: Display all notes associated with the user.
 
+## Prerequisites
+
+Ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (includes npm)
+- [MongoDB](https://www.mongodb.com/try/download/community) (or use a cloud service like MongoDB Atlas)
 
 
 ## Installation
@@ -30,9 +36,35 @@ git clone https://github.com/your-username/your-repo-name.git
 cd Notebook-Ur_to_dos
 ```
 
+### 3. Install the backend dependencies:
 
-### 3. Start the server
+```bash
+npm install
+```
+
+
+
+### 4. Start the server
 
 ```bash
 npm start
+```
+
+
+### 5. Navigate to the backend directory
+
+```bash
+cd Backend
+```
+
+### 6. Install the backend dependencies:
+
+```bash
+npm install
+```
+
+### 7. Start the backend server using nodemon
+
+```bash
+nodemon ./index.js
 ```
