@@ -36,7 +36,7 @@ git clone https://github.com/your-username/your-repo-name.git
 cd Notebook-Ur_to_dos
 ```
 
-### 3. Install the backend dependencies:
+### 3. Install the frontend dependencies:
 
 ```bash
 npm install
